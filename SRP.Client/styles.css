@@ -19,8 +19,14 @@ body {
 }
 
 .brand {
-  font-weight: bold;
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  height: 36px;
+  width: auto;
+  display: block;
 }
 
 nav a {
